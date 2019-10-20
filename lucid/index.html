@@ -2,9 +2,259 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lucid</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
-	<h1>Header</h1>
+	<header class="header">
+		<div class="container">
+			<a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+			<label id="burger-menu" for="toggle">&#9776;</label>
+			<input type="checkbox" id="toggle"/>
+			<nav>
+				<ul>	
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#" class="last">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="flex">
+				<div class="flex-item">
+					<p class="preview">introducing lucid theme</p>
+					<h1>Carefully crafted and beautiful landing page.</h1>
+					<p class="fl-text">Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
+					<a href="#" class="l">download now</a>
+					<a href="#" class="r">view features</a>
+				</div>
+				<div class="flex-item">
+					<img id="devices" src="img/devices.png" alt="devices">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="infographic">
+			<div class="container">
+				<p class="preview">product overview</p>
+				<h2>List of amazing features</h2>
+				<div class="blue-line"></div>
+				<div class="flex info">
+					<div class="info-item">
+						<img src="img/monitor.png" alt="monitor"> 
+						<h3>Rescponsive</h3>
+						<p class="info-text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+					</div>
+					<div class="info-item">
+						<img src="img/settings.png" alt="settings"> 
+						<h3>Customizable</h3>
+						<p class="info-text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+					</div>
+					<div class="info-item">
+						<img src="img/like.png" alt="like"> 
+						<h3>Lovely design</h3>
+						<p class="info-text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+					</div>
+					<div class="info-item">
+						<img src="img/phone.png" alt="phone">
+						<h3>Mobile Friendly</h3>
+						<p class="info-text">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="beautiful">
+			<div class="container">
+				<div class="flex device">
+					<div class="flex-item left-device"><img src="img/devices.png" alt="devices"></div>
+					<div class="flex-item">
+						<p class="preview">dip into the details</p>
+						<h2>Beautiful on every device</h2>
+						<div class="blue-line"></div>
+						<p class="device-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+
+						<ul>
+							<li><i class="fas fa-check"></i>&nbsp; Awesome design</li>
+							<li><i class="fas fa-check"></i>&nbsp; Fully responsive</li>
+							<li><i class="fas fa-check"></i>&nbsp; Retina ready</li>
+							<li><i class="fas fa-check"></i>&nbsp; Tons of features and easy to use</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="super">
+			<div class="container">
+				<div class="flex">
+					<div class="super-item1">
+						<p class="preview">dip into the details</p>
+						<h2>Super easy to customize</h2>
+						<div class="blue-line"></div>
+						<p class="text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+					</div>
+					<div class="super-item2"><img src="img/iPhone.png" alt="iphone"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="quote">
+			<div class="container">
+				<p class="preview">quality has its price</p>
+				<h2>Pricings & Plans</h2>
+				<div class="blue-line"></div>
+				<div class="flex">
+					<div class="flex-item">
+						<blockquote>
+							Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+						</blockquote>
+						<div class="autor">
+							<div class="photo">
+								<img src="img/lego.png" alt="lego">
+							</div>
+							<div class="name">
+								<p class="f-l-name">John Doe</p>
+								<p class="work">ceo, the rivers company</p>
+							</div>
+						</div>	
+					</div>
+					<div class="flex-item">
+						<blockquote>
+							A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.
+						</blockquote>
+						<div class="autor">
+							<div class="photo">
+								<img src="img/man.png" alt="man">
+							</div>
+							<div class="name">
+								<p class="f-l-name">Dean Winchester</p>
+								<p class="work">ux designer, google inc</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="like">
+			<div class="container">
+				<p><span class="like-text">Like what you see?</span></b> Get this great theme now!</p>
+				<a href="#" class="download">download now</a>
+				<a href="#" class="view">view features</a>
+			</div>
+		</section>
+
+		<section class="price">
+			<div class="container">
+				<p class="preview">quality has its price</p>
+				<h2>Pricings & Plans</h2>
+				<div class="blue-line"></div>
+
+				<div class=" price-flex">
+					<div class="price-item">
+						<h3>free</h3>
+						<div class="price-month">
+							<img src="img/0.png" alt="0">
+						</div>
+						<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span id="lacinia">lacinia</span> consectetur.</p>
+						<a href="#" class="order">order now</a>
+					</div>
+					<div class="price-item">
+						<h3>personal</h3>
+						<div class="price-month">
+							<img src="img/25.png" alt="25">
+						</div>
+						<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span id="lacinia">lacinia</span> consectetur.</p>
+						<a href="#" class="order">order now</a>
+					</div>
+					<div class="price-item">
+						<h3>business</h3>
+						<div class="price-month">
+							<img src="img/50.png" alt="50">
+						</div>
+						<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span id="lacinia">lacinia</span> consectetur.</p>
+						<a href="#" class="order">order now</a>
+					</div>
+					<div class="price-item">
+						<h3>ultimate</h3>
+						<div class="price-month">
+							<img src="img/99.png" alt="99">
+						</div>
+						<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span id="lacinia">lacinia</span> consectetur.</p>
+						<a href="#" class="order">order now</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact">
+			<div class="container">
+				<p class="preview">stay in touch</p>
+				<h2>Contact us</h2>
+				<div class="blue-line"></div>
+				<div class="flex-contact">
+					<div class="contact-item">
+						<img src="img/Phone-icon.png" alt="phone">
+						<p>Phone: (415) 124-5678
+						Fax: (412) 123-8290</p>
+					</div>
+					<div class="contact-item">
+						<img src="img/point.png" alt="point">
+						<p>1001 Brickell Bay Dr.
+						Suite 1900 <br>
+						Miami, FL 33131</p>
+					</div>
+					<div class="contact-item">
+						<img src="img/message.png" alt="message">
+						<p>support@yourname.com</p>
+					</div>
+				</div>
+				<form action="#" method="get" onsubmit="return validation();">
+					<div class="form-box">
+						<div class="flex-form">
+							<div class="form-input">
+								<input type="text" class="input" id="name" placeholder="name*"/>
+								<span class="uncorrect" id="un-name">** uncorrect name</span>
+								<input type="text" class="input" id="email" placeholder="email*"/>
+								<span class="uncorrect" id="un-email">** uncorrect email</span>
+								<input type="text" class="input" id="subject" placeholder="subject*"/>
+								<spa class="uncorrect" id="un-subj" >** uncorrect subject</span>
+							</div>
+							<div class="form-input">
+								<textarea name="comment" id="comment" cols="30" rows="9" class="textarea" placeholder="message*" maxlength="150"></textarea>
+								<input type="submit" id="submit" value="send message"/>
+							</div>		
+						</div>	
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="map">		
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="icons">
+				<a href="#" class="social"><i class="fab fa-behance"></i></a>
+				<a href="#" class="social"><i class="fab fa-dribbble"></i></a>
+				<a href="#" class="social"><i class="fab fa-twitter"></i></a>
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				<p class="copy">copyright &copy; 2014 lucid onepage theme</p>
+			</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
 </body>
-</html> 
+</html>
