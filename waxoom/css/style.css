@@ -47,8 +47,8 @@
 	padding: 0;
 }
 
-body{
-	cursor: url(../img/cursor.png),pointer;
+html{
+	font-family: sans-serif;
 }
 
 .container{
@@ -59,7 +59,6 @@ body{
 
 .parallax{
 	background-image: url(../img/bg-header.png);
-	/*background-attachment: fixed;*/
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -73,7 +72,6 @@ body{
 	margin-top: 39px;
 	margin-left: 29px;
 	float: left;
-	cursor: url(../img/cursor.png),pointer;
 }
 
 label, #toggle{
@@ -101,7 +99,6 @@ label, #toggle{
 	color: #f6f6f6;
 	font-family: Montserrat Light;
 	font-size: 14px;
-	cursor: url(../img/cursor.png),pointer;
 }
 
 .nav-menu a:hover{
@@ -174,7 +171,6 @@ label, #toggle{
 	margin-bottom: 5px;
 	border-bottom: 3px solid #736357;
 	border-radius: 3px;
-	cursor: url(../img/cursor.png),pointer;
 }
 
 .prev,.next{
@@ -184,7 +180,7 @@ label, #toggle{
 	font-size: 100px;
 	top: 0;
 	top: 70px;
-	cursor: url(../img/cursor.png),pointer;
+	cursor:pointer;
 }
 .prev{
 		left:5vw;
@@ -232,7 +228,7 @@ label, #toggle{
 	border-radius: 50%;
 	background-color: #a09e9e;
 	margin-right: 8px;
-	cursor: url(../img/cursor.png),pointer;
+	cursor: pointer;
 }
 .active,
 .dots-item:hover{
@@ -384,7 +380,6 @@ label, #toggle{
 	margin-right: 33px;
 	border-bottom: 3px solid #736357;
 	border-radius: 3px;
-	cursor: url(../img/cursor.png),pointer;
 }
 
 .portfolio h2{
@@ -423,7 +418,6 @@ label, #toggle{
 	border-radius: 3px;
 	margin-right: 10px;
 	transition: .3s ease-in-out;
-	cursor: url(../img/cursor.png),pointer;
 }
 
 .portfolio li a:hover{
@@ -451,7 +445,6 @@ label, #toggle{
 	display: block;
 	text-decoration: none;
 	margin-bottom: 30px;
-	cursor: url(../img/cursor.png),pointer;
 }
 
 .portf-flex a:hover .portf-bottom{
@@ -559,7 +552,7 @@ label, #toggle{
 	margin-bottom: 81px;
 	border-bottom: 3px solid #736357;
 	border-radius: 3px;
-	cursor: url(../img/cursor.png),pointer;
+	cursor: pointer;
 }
 
 .video{
@@ -624,7 +617,6 @@ label, #toggle{
 	-ms-flex-wrap: wrap;
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
-	/*justify-content: space-between;*/
 }
 
 .left{
