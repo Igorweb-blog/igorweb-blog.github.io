@@ -1,0 +1,155 @@
+body{
+	height: 100%;
+	font-family: sans-serif;
+	background-color: #f4f4f4;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 550px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1{
+	font-family: Arial;
+	font-size: 100px;
+	color: #e7d5d8;
+}
+
+#input-text{
+	position: relative;
+	width: 100%;
+	height: 66px;
+	border: 1px solid green;
+	font-size: 26px;
+}
+
+#list{
+	position: relative;
+}
+
+.nav-li{
+	position: relative;
+	width: 100%;
+	list-style-type: none;
+	border: 1px solid green;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	font-size: 22px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.nav-item{
+	max-width: 70%;
+	word-wrap:break-word;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.icons{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	border: 1px solid gray;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+.icons:last-child{
+	border: none;
+}
+
+.fas{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}
+
+.fa-check{
+	color: green;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.fa-times{
+	color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: none;
+}
+
+.nav-li:hover .fa-times{
+	opacity: 1;
+}
+
+
+.down-line{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	padding: 7px 0;
+	position: relative;
+	border: 1px solid green;
+	font-size: 18px;
+	color: #c4c4c4;
+	align-items: baseline;
+	width: 100%;
+}
+
+.down-line-item:nth-child(2){
+	max-width: 50%;
+}
+
+.filter-link{
+	display: inline-block;
+	text-decoration: none;
+	color: #c4c4c4;
+	padding: 5px;
+}
+
+.active{
+	border: 1px solid #f2e2e3;
+}
+
+.filter-link:hover{
+	border: 1px solid #f2e2e3;
+}
+
+#clear{
+	background: none;
+	border: none;
+	font-size: 18px;
+	color: #c4c4c4;
+	padding: 5px;
+}
+
+#clear:hover{
+	cursor: pointer;
+}
+
+.complete{
+
+}
